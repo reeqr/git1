@@ -40,6 +40,6 @@ class CalculateTask implements Callable<Integer> {
         for (int i = 0; i <= num; i++) {
             sum += i;
         }
-        return sum+3;
+        return sum+6;
     }
 }
